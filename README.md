@@ -1,6 +1,6 @@
 # Web Verse Virtual Reality Software Platform Landing Page
 
-Welcome to the **Virtual Reality Software Platform** landing page project! This project is built using **Next.js**, **TypeScript**, and **Tailwind CSS**. It serves as a showcase for a cutting-edge VR software platform aimed at modern web developers.
+Welcome to the **Web Verse Virtual Reality Software Platform** landing page project! This project is built using **Next.js**, **TypeScript**, and **Tailwind CSS**. It serves as a showcase for a cutting-edge VR software platform aimed at modern web developers.
 
 ## Table of Contents
 
