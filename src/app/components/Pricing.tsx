@@ -1,7 +1,6 @@
 import React from "react";
 import { CheckCircle2 } from "lucide-react";
 import { pricingOptions } from "../constants";
-import { features } from "process";
 
 function Pricing() {
   return (
