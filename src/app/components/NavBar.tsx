@@ -22,7 +22,7 @@ function Navbar() {
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <Link href={item.href} className="hover:text-blue-500">
+                <Link href={item.href} className="hover:text-blue-500 transition">
                   {item.label}
                 </Link>
               </li>
