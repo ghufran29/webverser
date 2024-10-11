@@ -4,7 +4,12 @@ import { testimonials } from "../constants";
 function Testimonials() {
   return (
     <div className="mt-20 tracking-wide">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
+      <div className="text-center">
+      <span className="bg-neutral-900 text-blue-500 rounded-full h-6 text-xl font-semibold px-2 py-1 uppercase">
+          testimonials
+        </span>
+      </div>
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center my-5 lg:my-10">
         What people are saying
       </h2>
       <div className="flex flex-wrap justify-center">

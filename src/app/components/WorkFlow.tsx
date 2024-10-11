@@ -7,9 +7,14 @@ import { checklistItems } from "../constants";
 function WorkFlow() {
   return (
     <div className="mt-20">
+      <div className="text-center">
+      <span className="bg-neutral-900 text-blue-500 rounded-full h-6 text-xl font-semibold px-2 py-1 uppercase">
+          workflow
+        </span>
+      </div>
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
         Accelerate your
-        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-blue-600 to-violet-800 text-transparent bg-clip-text">
           {" "}
           coding workflow
         </span>

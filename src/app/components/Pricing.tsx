@@ -5,8 +5,13 @@ import { pricingOptions } from "../constants";
 function Pricing() {
   return (
     <div className="mt-20">
-      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wider">
-        Pricing
+      <div className="text-center">
+      <span className="bg-neutral-900 text-blue-500 rounded-full h-6 text-xl font-semibold px-2 py-1 uppercase">
+          pricing
+        </span>
+      </div>
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl text-center my-8 tracking-wider">
+        Our Packages
       </h2>
       <div className="flex flex-wrap">
         {pricingOptions.map((option, index) => (
@@ -15,7 +20,7 @@ function Pricing() {
               <p className="text-4xl mb-8">
                 {option.title}
                 {option.title === "Pro" && (
-                  <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2">
+                  <span className="bg-gradient-to-r from-blue-600 to-indigo-400 text-transparent bg-clip-text text-xl mb-4 ml-2">
                     (Most Popular)
                   </span>
                 )}
@@ -32,7 +37,7 @@ function Pricing() {
                   </li>
                 ))}
               </ul>
-              <button className="inline-flex justify-center items-center text-center w-full p-5 h-12 mt-20 tracking-tight text-xl hover:bg-orange-900 border border-orange-900 rounded-lg transition duration-200">
+              <button className="inline-flex justify-center items-center text-center w-full p-5 h-12 mt-20 tracking-tight text-xl hover:bg-gradient-to-r hover:from-indigo-800 hover:to-blue-600 border border-violet-900 rounded-lg transition duration-200">
                 Subscribe
               </button>
             </div>

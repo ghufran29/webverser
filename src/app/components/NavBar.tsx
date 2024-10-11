@@ -22,17 +22,17 @@ function Navbar() {
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
               <li key={index}>
-                <Link href={item.href} className="hover:text-orange-500">
+                <Link href={item.href} className="hover:text-blue-500">
                   {item.label}
                 </Link>
               </li>
             ))}
           </ul>
           <div className="hidden lg:flex justify-center items-center space-x-6">
-            <button className="py-2 px-3 border rounded-md hover:text-orange-400">
+            <button className="py-2 px-3 border rounded-md hover:text-blue-400">
               Sign In
             </button>
-            <button className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md hover:from-orange-800 hover:to-orange-500">
+            <button className="bg-gradient-to-r from-blue-600 to-violet-800 py-2 px-3 rounded-md hover:from-violet-800 hover:to-blue-500">
               Create an account
             </button>
           </div>
@@ -52,8 +52,8 @@ function Navbar() {
               ))}
             </ul>
             <div className="flex mt-4 space-x-6">
-              <button className="py-2 px-3 border rounded-md">Sign In</button>
-              <button className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">
+              <button className="py-2 px-3 border rounded-md hover:text-blue-400">Sign In</button>
+              <button className="bg-gradient-to-r from-blue-600 to-violet-800 py-2 px-3 rounded-md hover:from-violet-800 hover:to-blue-500">
                 Create an account
               </button>
             </div>

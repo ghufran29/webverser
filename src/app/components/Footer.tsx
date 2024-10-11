@@ -58,7 +58,7 @@ function Footer() {
         <p>
         WebVerseR © 2024 developed and maintained by{" "}
           <Link
-            className="text-neutral-300 hover:text-white"
+            className="text-neutral-300 hover:text-blue-500"
             href="https://github.com/ghufran29"
           >
             ghufran
